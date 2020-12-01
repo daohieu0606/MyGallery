@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:icon="@drawable/ic_baseline_home_unclicked"
+        android:title="Home"/>
+    <item android:id="@+id/nav_photo"
+        android:icon="@drawable/ic_baseline_photo_library_unclicked"
+        android:title="Picture"/>
+    <item android:id="@+id/nav_video"
+        android:icon="@drawable/ic_baseline_video_library_unclicked"
+        android:title="Video"/>
+    <item android:id="@+id/nav_setting"
+        android:icon="@drawable/ic_baseline_settings_unclicked"
+        android:title="Setting"/>
+
+</menu>

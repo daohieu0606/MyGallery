@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyGallery</string>
+    <string name="photo_count">ẢNH</string>
+    <string name="folder_count">THƯ MỤC</string>
+    <string name="video_count">VIDEO</string>
+    <string name="create_album">TẠO ALBUM</string>
+    <string name="open_camera">MÁY ẢNH</string>
+    <string name="record_video">MÁY QUAY</string>
+    <string name="scan_similar_file">QUÉT ẢNH TRÙNG</string>
+    <string name="quick_access">Truy cập nhanh</string>
+    <string name="recent_pictures">Ảnh gần đây</string>
+    <string name="recently_videos">Video gần đây</string>
+    <string name="favorite_photos">Ảnh yêu thích</string>
+    <string name="view_all">Xem thêm</string>
+    <string name="favorite_videos">Video yêu thích</string>
+    <string name="tittle_fragment_pictures">HÌNH ẢNH</string>
+    <string name="tittle_fragment_videos">VIDEOS</string>
+    <string name="tittle_fragment_setting">CÀI ĐẶT</string>
+    <string name="change_themes">THAY ĐỔI GIAO DIỆN</string>
+    <string name="about_us">VỀ CHÚNG TÔI</string>
+    <string name="sort_by_name">Tên</string>
+    <string name="sort_by_size">Kích thước</string>
+    <string name="sort_by_type">Loại</string>
+    <string name="sort_by_added_date">Ngày tạo</string>
+    <string name="set_wallpaper">Đặt làm ảnh nền</string>
+    <string name="rename">Đổi tên</string>
+    <string name="details">Chi tiết</string>
+    <string name="move_to_album">Chuyển vào album khác</string>
+    <string name="draw_text_on_picture">Thêm text vào ảnh</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_picture">Ảnh</string>
+    <string name="nav_video">Video</string>
+    <string name="nav_setting">Cài đặt</string>
+    <string name="share">Chia sẻ</string>
+    <string name="link">Đường dẫn</string>
+    <string name="size">Kích cỡ</string>
+    <string name="duration">Thời gian</string>
+    <string name="file_name">Tên tệp</string>
+    <string name="finding_duplicate_pictures">Đang tìm kiếm file trùng</string>
+</resources>

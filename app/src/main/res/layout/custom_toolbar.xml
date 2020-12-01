@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/gradient_toolbar"
+    android:gravity="bottom"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:backgroundTint="@color/myWhite"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:id="@+id/toolbar"
+        >
+        <TextView
+            android:fontFamily="casual"
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toolbar Title"
+            android:textColor="@android:color/white"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="center"
+            />
+        <ImageView
+            android:background="@drawable/gallery_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"/>
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

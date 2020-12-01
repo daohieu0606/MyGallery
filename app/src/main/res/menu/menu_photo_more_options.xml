@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/set_wallpaper"
+        android:id="@+id/optSetWallPaper"/>
+    <item android:title="@string/rename"
+        android:id="@+id/optChangeNamePicture"/>
+    <item android:title="@string/details"
+        android:id="@+id/optDetailPicture"/>
+    <item android:title="@string/slide_show"
+        android:id="@+id/slideshow"/>
+    <item android:title="@string/move_to_album"
+        android:id="@+id/moveToAlbum"/>
+    <item android:title="@string/share"
+        android:id="@+id/shareImage"/>
+</menu>

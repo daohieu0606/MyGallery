@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="prime6">#5600E8</color>
+    <color name="prime3">#985EFF</color>
+    <color name="prime1">#DBB2FF</color>
+
+    <color name="black9">#000000</color>
+
+    <color name="myWhite">#FFFFFF</color>
+
+    <color name="myGrey">#808080</color>
+
+</resources>

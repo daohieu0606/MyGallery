@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:fillViewport="false"
+    tools:context=".fragment.HomeFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_toolbar">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="-7dp"
+                android:background="@drawable/shownumber"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:text="@string/photo_count"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:text="@string/folder_count"
+                        android:textSize="26sp" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:text="@string/video_count"
+                        android:textSize="26sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal"
+                    android:weightSum="9">
+
+                    <TextView
+                        android:id="@+id/txtPhotoCount1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/prime6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/txtFolderCount1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/prime6"
+                        android:textSize="40sp" />
+
+                    <TextView
+                        android:id="@+id/txtVideoCount1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="3"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/prime6"
+                        android:textSize="40sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:background="@drawable/shelf"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginStart="10dp"
+                android:textSize="18sp"
+                android:text="@string/quick_access"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:weightSum="4"
+                android:gravity="center_vertical"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnCreateAlbum"
+                        android:background="@drawable/new_album"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"/>
+                    <TextView
+                        android:textColor="@color/black9"
+                        android:text="@string/create_album"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnCaptureImage"
+                        android:background="@drawable/open_camera"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"/>
+                    <TextView
+                        android:textColor="@color/black9"
+                        android:text="@string/open_camera"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnRecordVideo"
+                        android:background="@drawable/open_camcorder"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"/>
+                    <TextView
+                        android:textColor="@color/black9"
+                        android:text="@string/record_video"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnScanDuplicateFile"
+                        android:background="@drawable/ic_button_find_duplicate_file"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"/>
+                    <TextView
+                        android:textColor="@color/black9"
+                        android:text="@string/scan_similar_file"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <ViewStub
+            android:id="@+id/duplicatedList"
+            android:layout="@layout/view_duplicated_file"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/shelf"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black9"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="18sp"
+                    android:text="@string/recent_pictures"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rccRecentPictures"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/shelf"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black9"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="18sp"
+                    android:text="@string/recently_videos"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rccRecentVideos"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingBottom="20dp"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/shelf"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black9"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="18sp"
+                    android:text="@string/favorite_photos"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rccFavoritePhoto"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:paddingBottom="20dp"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+            android:background="@drawable/shelf"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <LinearLayout
+                android:weightSum="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="@color/black9"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textSize="18sp"
+                    android:text="@string/favorite_videos"
+                    android:layout_height="wrap_content"/>
+
+<!--                <Button
+                    android:id="@+id/btnViewAll4"
+                    android:layout_marginEnd="15dp"
+                    android:textColor="@color/prime6"
+                    android:gravity="end"
+                    android:background="@android:color/transparent"
+                    android:text="@string/view_all"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>-->
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rccFavoriteVideo"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

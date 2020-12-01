@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyGallery</string>
+    <string name="photo_count">PHOTOS</string>
+    <string name="folder_count">FOLDERS</string>
+    <string name="video_count">VIDEOS</string>
+    <string name="create_album">Create Album</string>
+    <string name="open_camera">Camera</string>
+    <string name="record_video">Record Video</string>
+    <string name="scan_similar_file">Similar file</string>
+    <string name="quick_access">Quick access</string>
+    <string name="recent_pictures">Recent pictures</string>
+    <string name="recently_videos">Recently videos</string>
+    <string name="favorite_photos">Favorite Photos</string>
+    <string name="view_all">View all</string>
+    <string name="favorite_videos">Favorite Videos</string>
+    <string name="tittle_fragment_pictures">PICTURES</string>
+    <string name="tittle_fragment_videos">VIDEOS</string>
+    <string name="tittle_fragment_setting">SETTING</string>
+    <string name="change_themes">Change themes</string>
+    <string name="about_us">About us</string>
+    <string name="sort_by_name">Name</string>
+    <string name="sort_by_size">Size</string>
+    <string name="sort_by_type">Type</string>
+    <string name="sort_by_added_date">Added Date</string>
+    <string name="set_wallpaper">Set wallpaper</string>
+    <string name="rename">Rename</string>
+    <string name="details">Details</string>
+    <string name="slide_show" translatable="false">Slide show</string>
+    <string name="move_to_album">Move to album</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_picture">Picture</string>
+    <string name="nav_video">Video</string>
+    <string name="nav_setting">Setting</string>
+    <string name="draw_text_on_picture">Draw text on picture</string>
+    <string name="share">Share</string>
+    <string name="file_name">File Name</string>
+    <string name="duration">Duration</string>
+    <string name="size">Size</string>
+    <string name="link">Link:</string>
+    <string name="finding_duplicate_pictures">Finding Duplicate Pictures</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
